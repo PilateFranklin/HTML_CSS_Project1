@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-family: DM Sans;
+    font-size: 4rem;
+    
+}
+span{
+    color: blue;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 2rem;
+}
+
+ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: lavender;
+}
+ul{
+    display: flex;
+    
+}
+
+
+.hero {
+    background-image: url(wojciech-then-DijA5f0voGQ-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    text-align: center;
+    display: flex;
+    color: rosybrown;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+input{
+    width: 60vw;
+    height: 8vh;
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    padding: 2rem 2rem;
+   
+}
+button{
+    padding: 0.7rem;
+    border-radius: 12px;
+}
+button:active{
+background-color: blue;
+}
+.content{
+    margin-left: 3rem ;
+    margin-top: 5rem;
+    padding: 1.2rem;
+    
+}
+.content p{
+    margin-top: 1rem;
+    font-family: "montserrat_regular",sans-serif;
+}
+h3{
+    font-family: "montserrat_regular",sans-serif;
+    font-size: 2rem;
+
+}
+.horizontal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo{
+    width: 400px;
+    height: 300px;
+    background-color: brown;
+    margin-top: 1rem;
+}
+.frame1{
+    background-image: url(Boat\ ride\ im\ Malaysia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+.frame2{
+    background-image: url(Horizon\ view\ from\ norwegian\ cliffs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+.frame3{
+    background-image: url(Tried\ mountain\ hiking.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+.explore{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.explore p{
+   font-size: 1rem ;
+   font-family: "montserrat_regular",sans-serif;
+   font-weight: bold;
+   color: darksalmon;
+}
+.end{
+    margin-top: 3rem;
+}
+.end h3{
+    margin-left: 3rem;
+}
+.footer{
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    }
+
+    @media(max-width:750px){
+        .horizontal{display: block; }
+        ul{display: block;}
+        .hero h2{font-size: 2.5rem;}
+        input{font-size: 0.71rem;}
+        .explore p{font-size: 0.85rem; padding: 0.2rem; }
+        .content{margin-left: 1.75rem ;}
+        .explore{display: block; padding: 0.2rem;}
+    }
